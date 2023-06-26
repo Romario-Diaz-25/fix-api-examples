@@ -1,0 +1,72 @@
+<fix major="4" minor="4" servicepack="0">
+    <header>
+        <field number="8" name="BeginString" type="STRING" required="Y"/>
+        <field number="9" name="BodyLength" type="LENGTH" required="Y"/>
+        <field number="35" name="MsgType" type="STRING" required="Y"/>
+        <field number="553" name="Username" type="STRING" required="Y"/>
+        <field number="554" name="Password" type="STRING" required="Y"/>
+        <!-- Otros campos de encabezado -->
+    </header>
+
+    <trailer>
+        <field number="10" name="CheckSum" type="STRING" required="Y"/>
+        <!-- Otros campos de trailer -->
+    </trailer>
+
+    <messages>
+        <message name="Heartbeat" msgtype="0">
+            <field name="TestReqID" required="N"/>
+            <field name="EncryptMethod" required="Y"/>
+            <field name="HeartBtInt" required="Y"/>
+            <field number="553" name="Username" required="Y"/>
+            <field number="554" name="Password" required="Y"/>
+            <field name="ResetSeqNumFlag" required="Y"/>
+            <field name="MaxMessageSize" required="Y"/>
+            <field name="NoMsgTypes" required="Y"/>
+            <field name="MsgType" required="N" />
+            <!-- Otros campos para el mensaje Heartbeat -->
+        </message>
+
+        <message name="Logon" msgtype="A">
+            <field name="EncryptMethod" required="Y"/>
+            <field name="HeartBtInt" required="Y"/>
+            <field name="Username" required="Y"/>
+            <field name="Password" required="Y"/>
+            <field name="ResetSeqNumFlag" required="Y"/>
+            <field name="MaxMessageSize" required="Y"/>
+            <field name="NoMsgTypes" required="Y"/>
+            <field name="MsgType" required="N" />
+            <!-- Otros campos para el mensaje Logon -->
+        </message>
+
+        <!-- Agrega aquí otros mensajes requeridos para tu implementación -->
+    </messages>
+
+    <fields>
+        <field number="1" name="Account" type="STRING"/>
+        <field number="11" name="ClOrdID" type="STRING"/>
+        <field number="8" name="BeginString" type="STRING"/>
+        <field number="9" name="BodyLength" type="STRING"/>
+        <field number="35" name="MsgType" type="STRING"/>
+        <field number="10" name="CheckSum" type="STRING"/>
+        <field number="112" name="TestReqID" type="STRING"/>
+        <field number="98" name="EncryptMethod" type="STRING"/>
+        <field number="108" name="HeartBtInt" type="STRING"/>
+        <field number="553" name="Username" type="STRING"/>
+        <field number="554" name="Password" type="STRING"/>
+        <field number="141" name="ResetSeqNumFlag" type="STRING"/>
+        <field number="383" name="MaxMessageSize" type="STRING"/>
+        <field number="384" name="NoMsgTypes" type="STRING"/>
+        <!-- Agrega aquí otros campos requeridos para tu implementación -->
+    </fields>
+
+    <session name="FIX.4.4-TEST80129-QFXPRICES">
+        <component name="HeartBtInt" required="Y"/>
+        <component name="SenderCompID" required="Y"/>
+        <component name="TargetCompID" required="Y"/>
+        <component name="SocketConnectHost" required="Y"/>
+        <component name="SocketConnectPort" required="Y"/>
+        <component name="Username" required="Y"/>
+        <component name="Password" required="Y"/>
+    </session>
+</fix>
