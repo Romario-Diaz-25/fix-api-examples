@@ -30,7 +30,7 @@ public class FixInitiator {
         SessionID sessionID = new SessionID("FIX.4.4", "TEST80129", "QFXPRICES");
 
         // Verifica si la sesión está disponible
-        if (Session.doesSessionExist(sessionID)) {
+        //if (Session.doesSessionExist(sessionID)) {
             try {
                 // Crea un mensaje de logon utilizando la clase genérica Message
                 Message logon = new Message();
@@ -44,10 +44,10 @@ public class FixInitiator {
                 // Maneja las excepciones si no se encuentra la sesión o no se encuentra el campo
                 e.printStackTrace();
             }
-        } else {
+        //} else {
             // La sesión no existe
-            System.out.println("La sesión no está disponible");
-        }
+        //   System.out.println("La sesión no está disponible");
+        //}
 
 
         while (true) {

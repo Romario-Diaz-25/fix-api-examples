@@ -11,3 +11,73 @@
 20230622-15:55:54: MINA session created: local=/192.168.1.88:49326, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.134:6660
 20230622-15:55:55: Initiated logon request
 20230622-15:55:55: Disconnecting: Encountered END_OF_STREAM
+20230707-02:01:34: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230707-02:01:34: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230707-02:01:35: Configured socket addresses for session: [demo.fx-edge.com/146.59.117.186:6660]
+20230707-02:01:35: No responder, not sending message: 8=FIX.4.49=8935=A34=7349=TEST8012952=20230707-02:01:35.36356=QFXPRICES553=test80129554=fd55ds6410=012
+20230707-02:01:35: MINA session created: local=/172.16.2.149:49346, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.186:6660
+20230707-02:01:36: Initiated logon request
+20230707-02:01:36: Disconnecting: Encountered END_OF_STREAM
+20230707-02:16:54: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230707-02:16:54: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230707-02:16:55: Configured socket addresses for session: [demo.fx-edge.com/146.59.117.134:6660]
+20230707-02:16:55: No responder, not sending message: 8=FIX.4.49=8935=A34=7549=TEST8012952=20230707-02:16:55.17456=QFXPRICES553=test80129554=fd55ds6410=022
+20230707-02:16:55: MINA session created: local=/172.16.2.149:50730, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.134:6660
+20230707-02:16:56: Initiated logon request
+20230707-02:16:56: Disconnecting: Encountered END_OF_STREAM
+20230708-23:29:51: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:29:51: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:29:51: Configured socket addresses for session: [demo.fx-edge.com/146.59.117.186:6660]
+20230708-23:29:52: MINA session created: local=/172.16.2.149:51337, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.186:6660
+20230708-23:29:53: Initiated logon request
+20230708-23:29:53: Disconnecting: Encountered END_OF_STREAM
+20230708-23:47:14: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:47:14: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:47:15: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:47:15: MINA session created: local=/172.16.2.149:51620, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/51.83.248.18:6660
+20230708-23:47:16: Initiated logon request
+20230708-23:47:16: Disconnecting: Encountered END_OF_STREAM
+20230708-23:49:40: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:49:40: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:49:41: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:49:41: MINA session created: local=/172.16.2.149:51659, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/51.83.248.18:6660
+20230708-23:49:42: Initiated logon request
+20230708-23:49:42: Disconnecting: Encountered END_OF_STREAM
+20230708-23:50:08: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:50:08: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:50:09: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:50:09: MINA session created: local=/172.16.2.149:51670, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/51.83.248.18:6660
+20230708-23:50:10: Initiated logon request
+20230708-23:50:10: Disconnecting: Encountered END_OF_STREAM
+20230708-23:51:02: Session FIX.4.4:TEST80129->QFXPRICES schedule is weekly, SUN 00:00:00-UTC - FRI 00:00:00-UTC
+20230708-23:51:02: Session state is not current; resetting FIX.4.4:TEST80129->QFXPRICES
+20230708-23:51:02: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:51:02: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:52:32: Session FIX.4.4:TEST80129->QFXPRICES schedule is weekly, SUN 00:00:00-UTC - FRI 00:00:00-UTC
+20230708-23:52:32: Session state is not current; resetting FIX.4.4:TEST80129->QFXPRICES
+20230708-23:52:32: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:52:33: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:53:02: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:53:02: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:53:02: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:53:03: MINA session created: local=/172.16.2.149:51731, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/51.83.248.18:6660
+20230708-23:53:03: Initiated logon request
+20230708-23:53:04: Disconnecting: Encountered END_OF_STREAM
+20230708-23:55:21: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230708-23:55:21: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230708-23:55:22: Configured socket addresses for session: [demo.fx-edge.com/51.83.248.18:6660]
+20230708-23:55:22: MINA session created: local=/172.16.2.149:51760, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/51.83.248.18:6660
+20230708-23:55:23: Initiated logon request
+20230708-23:55:23: Disconnecting: Encountered END_OF_STREAM
+20230709-05:44:09: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230709-05:44:09: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230709-05:44:09: Configured socket addresses for session: [demo.fx-edge.com/146.59.117.186:6660]
+20230709-05:44:09: MINA session created: local=/172.16.2.149:50824, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.186:6660
+20230709-05:44:10: Initiated logon request
+20230709-05:44:10: Disconnecting: Encountered END_OF_STREAM
+20230709-06:27:03: Session FIX.4.4:TEST80129->QFXPRICES schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20230709-06:27:03: Created session: FIX.4.4:TEST80129->QFXPRICES
+20230709-06:27:03: Configured socket addresses for session: [demo.fx-edge.com/146.59.117.134:6660]
+20230709-06:27:03: MINA session created: local=/172.16.2.149:51861, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=demo.fx-edge.com/146.59.117.134:6660
+20230709-06:27:04: Initiated logon request
+20230709-06:27:04: Disconnecting: Encountered END_OF_STREAM
